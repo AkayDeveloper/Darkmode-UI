@@ -1,0 +1,31 @@
+.darkMode {
+    background-color: rgb(32, 32, 35);
+    transition-duration: 0.5s;
+}
+
+body {
+    background-color: rgb(240,231, 219);
+    transition-duration: 0.5s;
+}
+
+button {
+    float: right;
+    height: 40px;
+    width: 40px;
+    background-color: #ff3f34;
+    border-radius: 8px;
+    color: white;
+    border: white;
+    transition: background-color 2s, transform 1s;
+
+}
+
+.button-colorchange {
+    background-color: #D6A2E8;
+    transition: background-color 2s, transform 1s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
